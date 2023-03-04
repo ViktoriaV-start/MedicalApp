@@ -178,6 +178,12 @@ _header.form-control-dark {
   border-color: #596B64;
   color: #596B64;
 }
+.header__link {
+  border-radius: 5px;
+}
+.header__link:hover {
+  background-color: #EDFFF8;
+}
 
 .introduction {
   min-height: 100%;
@@ -225,4 +231,24 @@ _header.form-control-dark {
 .main-footer__text {
   color: grey;
   padding-top: 20px;
+}
+
+.med-form {
+  padding: 50px 87px 100px 64px;
+}
+.med-form__head {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 1.7rem;
+}
+.med-form__error {
+  color: rgba(240, 20, 83, 0.831372549);
+  font-size: 14px;
+}
+.med-form__help {
+  align-self: center;
+}
+
+h1 {
+  font-size: 1.5rem;
 }/*# sourceMappingURL=index.css.map */
